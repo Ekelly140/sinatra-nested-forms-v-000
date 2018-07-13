@@ -1,11 +1,11 @@
 class Pirate
-  attr_reader :name, :age, :weight
+  attr_reader :name, :height, :weight
 
 PIRATES = []
 
 def initialize(args)
   @name = args[:name]
-  @age = args[:age]
+  @height = args[:height]
   @age = args[:weight]
   PIRATES << self
 end
