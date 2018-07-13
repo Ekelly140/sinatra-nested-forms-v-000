@@ -6,7 +6,7 @@ PIRATES = []
 def initialize(args)
   @name = args[:name]
   @height = args[:height]
-  @age = args[:weight]
+  @weight = args[:weight]
   PIRATES << self
 end
 
